@@ -1,0 +1,62 @@
+header #titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header #titulo img {
+    height: 3vw;
+    width: 3vw;
+    margin-right: 10px;
+}
+
+header #titulo h1 {
+    align-items: center;
+}
+
+#tituloCuentas {
+    margin-left: 4vw;
+    display: block;
+    width: 100%;
+}
+
+.cuentas {
+    border: solid ghostwhite 2px;
+    padding: 10px;
+    box-shadow: 0 0 0.5rem rgba(7,48,46,0.2), 0 0 0.0625rem rgba(7,48,46,0.15);
+    border-radius: 0.75rem;
+    margin: 10px auto 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cuenta {
+    box-shadow: 0 3px 8px rgba(0,0,0,0.4);
+    border-left: 0.5rem solid gray;
+    border-radius: 0.3rem;
+    padding: 0.6em;
+    width: 40%;
+    margin: 2%;
+}
+
+.cuenta p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .copy {
+    margin: 3px 0;
+}
+
+@media (max-width: 550px){
+    .cuenta {
+        width: 90%;
+    }
+}
